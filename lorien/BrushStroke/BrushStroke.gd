@@ -25,6 +25,7 @@ var pressures: Array # Array<float>
 var top_left_pos: Vector2
 var bottom_right_pos: Vector2
 var _box_size : Vector2
+var layer: int
 
 # ------------------------------------------------------------------------------------------------
 func _ready():
