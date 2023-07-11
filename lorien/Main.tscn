@@ -45,6 +45,7 @@ stretch = true
 anchor_right = 1.0
 anchor_bottom = 0.0759259
 margin_bottom = -3.99998
+rect_scale = Vector2( 1.5, 1.5 )
 custom_constants/separation = 0
 
 [node name="Menubar" parent="Topbar" instance=ExtResource( 4 )]
@@ -92,10 +93,10 @@ margin_bottom = 202.0
 custom_styles/panel = SubResource( 1 )
 
 [node name="ColorPicker" type="ColorPicker" parent="BackgroundColorPickerPopup/PanelContainer"]
-margin_left = 28.0
-margin_top = 28.0
-margin_right = 337.0
-margin_bottom = 432.0
+margin_left = 48.0
+margin_top = 48.0
+margin_right = 357.0
+margin_bottom = 452.0
 edit_alpha = false
 presets_enabled = false
 presets_visible = false
@@ -132,6 +133,7 @@ margin_right = 385.0
 margin_bottom = 216.5
 theme = ExtResource( 8 )
 popup_exclusive = true
+window_title = "Enregistrer un fichier"
 access = 2
 filters = PoolStringArray( "*.lorien" )
 __meta__ = {
@@ -239,6 +241,7 @@ margin_right = 68.5
 margin_bottom = 35.0
 theme = ExtResource( 8 )
 popup_exclusive = true
+window_title = "Alerte !"
 dialog_text = "Generic message. "
 __meta__ = {
 "_edit_lock_": true
